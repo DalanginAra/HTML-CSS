@@ -1,0 +1,104 @@
+*{
+    margin:1;
+    padding:1;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image:url('https://gtwallpaper.org/sites/default/files/wallpaper/247208/real-life-background-247208-2173114-5259800.png');
+    background-position: center;
+    background-size:cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.container{
+    .container{
+        display: flex;
+        width: 40%;
+        max-width: 1000px;
+        background: rgba(234, 85, 192, 0.6);
+        padding: 20px;
+        border-radius: 10px;
+        color:blue;
+    }
+
+    .welcome h1{
+        font-size: 48px;
+        margin-bottom: 10px;
+    
+    }
+    .welcome p{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .welcome{
+        flex: 1;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .signup-box{
+            width: 360px;
+            height: 600px;
+            margin:auto;
+            background-color: rgba(228, 96, 175, 0.2);
+            border-radius: 10px;
+            
+        }
+         
+         
+         h2{
+             text-align: center;
+             padding-top: 15px;
+             
+         }
+         h4{
+             text-align: center;
+             
+         }
+         form{
+             width: 300px;
+             margin-left: 20px;
+         }
+         
+         form label{
+             display: flex;
+             margin-top: 20px;
+             font-size: 20px;
+        }
+        
+        form input{
+            width: 100%;
+            padding: 7px;
+            border: none;
+            border: 1px solid rgb(233, 48, 128);
+            border-radius: 6px;
+            outline: none;
+            
+        }
+        
+        input[type="button"]{
+            width: 320px;
+            height: 35px;
+            margin-top: 20px;
+            border: none;
+            background-color:rgb(208, 58, 168);
+            color: white;
+            font-size: 20px;
+            
+        }
+        p{
+            text-align: center;
+            padding-top: 20px;
+            font-size: 15px;
+        
+        }
+        
+
+
+    
+}
